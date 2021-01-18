@@ -1,0 +1,16 @@
+# Mac specific files
+.DS_Store
+
+
+.ipynb_checkpoints
+assignment-1/__latexindent_temp.tex
+assignment-1/problem_set.synctex.gz
+
+# Latex files
+**/*.aux
+**/*.fdb_latexmk
+**/*.fls
+**/*.log
+**/*.out
+**/*.synctex..gz
+
