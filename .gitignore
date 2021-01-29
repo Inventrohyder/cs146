@@ -7,10 +7,12 @@ assignment-1/__latexindent_temp.tex
 assignment-1/problem_set.synctex.gz
 
 # Latex files
-**/*.aux
-**/*.fdb_latexmk
-**/*.fls
-**/*.log
-**/*.out
-**/*.synctex..gz
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex..gz
 
+Assignments/assignment-1/__latexindent_temp.tex
+Assignments/assignment-1/problem_set.synctex.gz
