@@ -45,3 +45,9 @@
 1. The Rhat value's are way much higher than 1, meaning that Stan's sampling didn't converge. For it to converge it should be a value around 1, that would mean that the different chains have fused together to kinda be like 1 chain.
 
 2. The total number of samples is 4000, the default (2000*4 - 1000*4). The effective number of samples for all parameters are less than 1/100th of the number of iterations 2000. These values are not good.
+
+### Task 3
+
+1. The samples are highly correlated.
+
+2. The pair plots shows us that many of the parameters are correlated with each other through certain relationships. Some are clustered. Some have linear relationship etc.
