@@ -1,5 +1,5 @@
 # Comments
-## 1. Notebook 1
+## 1. [Notebook 1](./cs146-14.1-pre-class-work-1.ipynb)
 ### Task 1
 
 1. The Rhat value is about 1, that means that the stan model was able to do a good sampling. The markov chains mixed well.
@@ -17,7 +17,7 @@
 
 * The Stan samples are distributed according to the target distribution. As we can see, it is concentrated in the bottom right as well as the bottom. The dots (samples) are clearly lieing there too.
 
-## 2. Notebook 2
+## 2. [Notebook 2](./cs146-14.1-pre-class-work-2.ipynb)
 ### Task 1
 
 1. The Rhat value is extremely high, it should be as close to 1 as possible. The high value means that the different chains didn't mix well. Therefore, the samples are not effective.
@@ -37,7 +37,7 @@
 2. However, in relation to the autocorrelation plot, we expect that the values are highly dependent and correlated to each other.
 
 
-## 2. Notebook 3
+## 3. [Notebook 3](./cs146-14.1-pre-class-work-3.ipynb)
 ### Task 1
 
 ### Task 2
