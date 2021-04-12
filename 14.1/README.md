@@ -11,3 +11,9 @@
 1. The plots show samples that are reasonably independent. We see a very high jump from the expected 1 at 0, to very low values that follow.
 
 2. The two pair plots show us the paired plots of both the mu and sigma. (x is mu in one, and y is sigma) and vice versa. At the same time we have their histograms.
+
+
+### Task 3
+
+* The Stan samples are distributed according to the target distribution. As we can see, it is concentrated in the bottom right as well as the bottom. The dots (samples) are clearly lieing there too.
+
