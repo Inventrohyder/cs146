@@ -35,3 +35,13 @@
 1. The stan samples seem to be distributed according to the target distribution. 
 
 2. However, in relation to the autocorrelation plot, we expect that the values are highly dependent and correlated to each other.
+
+
+## 2. Notebook 3
+### Task 1
+
+### Task 2
+
+1. The Rhat value's are way much higher than 1, meaning that Stan's sampling didn't converge. For it to converge it should be a value around 1, that would mean that the different chains have fused together to kinda be like 1 chain.
+
+2. The total number of samples is 4000, the default (2000*4 - 1000*4). The effective number of samples for all parameters are less than 1/100th of the number of iterations 2000. These values are not good.
