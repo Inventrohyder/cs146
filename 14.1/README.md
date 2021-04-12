@@ -29,3 +29,9 @@
 1. The autocorrelation is extremelly high. Therefore, the samples seem to not be independent at all.
 
 2. The pair plot shows us the two sides of the samples and hopefully a relation. We don't see also any random distribution, only the histograms.
+
+### Task 3
+
+1. The stan samples seem to be distributed according to the target distribution. 
+
+2. However, in relation to the autocorrelation plot, we expect that the values are highly dependent and correlated to each other.
