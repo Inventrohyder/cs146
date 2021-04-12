@@ -23,3 +23,9 @@
 1. The Rhat value is extremely high, it should be as close to 1 as possible. The high value means that the different chains didn't mix well. Therefore, the samples are not effective.
 
 2. n_eff is also very low indicating ineffective sampling. The value 2 is lower the 1/100th of the number of iterations(2000).
+
+### Task 2
+
+1. The autocorrelation is extremelly high. Therefore, the samples seem to not be independent at all.
+
+2. The pair plot shows us the two sides of the samples and hopefully a relation. We don't see also any random distribution, only the histograms.
