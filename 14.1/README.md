@@ -17,3 +17,9 @@
 
 * The Stan samples are distributed according to the target distribution. As we can see, it is concentrated in the bottom right as well as the bottom. The dots (samples) are clearly lieing there too.
 
+## 2. Notebook 2
+### Task 1
+
+1. The Rhat value is extremely high, it should be as close to 1 as possible. The high value means that the different chains didn't mix well. Therefore, the samples are not effective.
+
+2. n_eff is also very low indicating ineffective sampling. The value 2 is lower the 1/100th of the number of iterations(2000).
