@@ -51,3 +51,7 @@
 1. The samples are highly correlated.
 
 2. The pair plots shows us that many of the parameters are correlated with each other through certain relationships. Some are clustered. Some have linear relationship etc.
+
+### Task 4
+
+The 95% confidence interval looks good by actually enconmpassing the true data. However, it is not very great because it is kina not very informative.
