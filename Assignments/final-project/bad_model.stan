@@ -8,15 +8,18 @@ data {
 
 parameters {
     // Linear relationship
-    real c0;
+    real<lower=-10000, upper=10000>c0;
     real<lower=0>c1;  // Prior knowledge informs us of increasing c02 levels
     // Seasonal variation
-    real c2;
+    real<lower=0, upper=5> c2;
     real c3;
     real<lower=0>sigma;  // Standard deviation has to be positive
 }
 
 model {
+    c0 ~ cauchy(-2800, 100);
+    c1 ~ cauchy(1500, 100);
+    c2 ~ cauchy(2.5, 1);
     y ~ normal(
         c0 + c1*x + c2 * cos(2 * pi() * x / 365.25 + c3),
         sigma
