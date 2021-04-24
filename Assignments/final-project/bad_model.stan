@@ -9,10 +9,10 @@ data {
 parameters {
     // Linear relationship
     real<lower=-10000, upper=10000>t_intercept;
-    real<lower=0, upper=100>t_coef;  // Prior knowledge informs us of increasing c02 levels
+    real<lower=0, upper=1>t_coef;  // Prior knowledge informs us of increasing c02 levels
     // Seasonal variation
     real<lower=0, upper=5> c2;
-    real<lower=-5, upper=5> c3;
+    real<lower=-2, upper=2> c3;
     real<lower=0>sigma;  // Standard deviation has to be positive
 }
 
